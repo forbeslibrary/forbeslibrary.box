@@ -25,6 +25,7 @@ RewriteEngine on
 # RewriteBase /
 
 # fetch missing images from forbeslibrary.org
+RewriteRule ^(files/theme_uploads/.*)$ $1 [L]
 RewriteRule ^files/original/(.*)$ http://images.forbeslibrary.org/archive/files/$1 [R,L]
 RewriteRule ^files/(.*)$ http://images.forbeslibrary.org/archive/$1 [R,L]
 
