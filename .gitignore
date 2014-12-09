@@ -1,0 +1,3 @@
+.vagrant/
+*.log
+/public/omeka-2.2.2/themes/**
