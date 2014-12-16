@@ -1,0 +1,579 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Bruce <weavertheme@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Language: ar\n"
+"X-Generator: Poedit 1.6.4\n"
+
+#. Text in function
+#: weaver-ii-pro/functions.php:2080
+msgid "%1$s at %2$s"
+msgstr "%1$s الساعة %2$s"
+
+#. Text in function
+#: weaver-ii-pro/functions.php:2080
+msgid "%1$s on %2$s <span class=\"says\">said:</span>"
+msgstr "%1$s يوم %2$s <span class=\"says\">كتب:</span>"
+
+#. Text in function
+#: weaver-ii-pro/comments.php:67
+msgid "&larr; Older Comments"
+msgstr "&larr; تعليقات أقدم"
+
+#. Text in function
+#: weaver-ii-pro/image.php:106
+msgid "&larr; Previous"
+msgstr "&larr; السابق"
+
+#. Text in function
+#: weaver-ii-pro/functions.php:2080 weaver-ii-pro/functions.php:974
+#: weaver-ii-pro/content-image.php:57
+msgid ", "
+msgstr "،  "
+
+#. Text in function
+#: weaver-ii-pro/content-image.php:57
+msgid ""
+"<a href=\"%1$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%2$s"
+"\">%3$s</time></a><span class=\"by-author\"> <span class=\"sep\"> by </span> "
+"<span class=\"author vcard\"><a class=\"url fn n\" href=\"%4$s\" title=\"%5$s"
+"\" rel=\"author\">%6$s</a></span></span>"
+msgstr ""
+"<a href=\"%1$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%2$s"
+"\">%3$s</time></a><span class=\"by-author\"> <span class=\"sep\"> بواسطة </"
+"span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%4$s\" title="
+"\"%5$s\" rel=\"author\">%6$s</a></span></span>"
+
+#. Text in function
+#: weaver-ii-pro/content-chat.php:52 weaver-ii-pro/functions.php:832
+#: weaver-ii-pro/functions.php:992 weaver-ii-pro/functions.php:2080
+#: weaver-ii-pro/functions.php:1197
+msgid "<b>%</b> Replies"
+msgstr "<b>%</b> تعليقات"
+
+#. Text in function
+#: weaver-ii-pro/content-chat.php:52 weaver-ii-pro/functions.php:832
+#: weaver-ii-pro/functions.php:992 weaver-ii-pro/functions.php:2080
+#: weaver-ii-pro/functions.php:1197
+msgid "<b>1</b> Reply"
+msgstr "رد <b>وحيد</b> "
+
+#. Text in function
+#: weaver-ii-pro/functions.php:2080 weaver-ii-pro/functions.php:971
+#: weaver-ii-pro/content-image.php:54
+msgid "<span class=\"%1$s\">Posted in</span> %2$s"
+msgstr "<span class=\"%1$s\">نُشِرت في</span> %2$s"
+
+#. Text in function
+#: weaver-ii-pro/functions.php:982 weaver-ii-pro/content-image.php:62
+msgid "<span class=\"%1$s\">Tagged</span> %2$s"
+msgstr "<span class=\"%1$s\">الوسوم:</span> %2$s"
+
+#. Text in function
+#: weaver-ii-pro/functions.php:582
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&rarr;</span> التدوينات الأقدم"
+
+#. Text in function
+#: weaver-ii-pro/single.php:49
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> السابق"
+
+#. Text in function
+#: weaver-ii-pro/image.php:37
+msgid ""
+"<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class="
+"\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> "
+"at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> "
+"in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+msgstr ""
+"<span class=\"meta-prep meta-prep-entry-date\">نُشرت يوم </span> <span class="
+"\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> "
+"بمقاس <a href=\"%3$s\" title=\"رابط الصورة بحجمها الأصلي\">%4$s &times; "
+"%5$s</a> في <a href=\"%6$s\" title=\"العودة إلى %7$s\" rel=\"gallery\">%8$s</"
+"a>"
+
+#. Text in function
+#: weaver-ii-pro/functions.php:2080
+msgid ""
+"<span class=\"sep posted-on\">Posted on </span><a href=\"%1$s\" title=\"%2$s"
+"\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</"
+"time></a><span class=\"by-author\"> <span class=\"sep\"> by </span> <span "
+"class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" "
+"rel=\"author\">%7$s</a></span></span>"
+msgstr ""
+"<span class=\"sep\">كُتب يوم </span><a href=\"%1$s\" title=\"%2$s\" rel="
+"\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></"
+"a><span class=\"by-author\"> <span class=\"sep\"> بواسطة </span> <span class="
+"\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel="
+"\"author\">%7$s</a></span></span>"
+
+#. Text in function
+#: weaver-ii-pro/includes/pro/weaverii-pro-sc-feed.php:54
+msgid "<b>RSS Error</b>: %s"
+msgstr "خطأ RSS: %s"
+
+#. Text in function
+#: weaver-ii-pro/includes/shortcodes.php:133
+#: weaver-ii-pro/content-single.php:42 weaver-ii-pro/author.php:59
+msgid "About %s"
+msgstr "نبذة عن %s"
+
+#. Text in function
+#: weaver-ii-pro/includes/pro/weaverii-pro-sc-feed.php:54
+msgid "An error has occurred; the feed is probably down. Try again later."
+msgstr "لقد حصل خطأ، من المحتمل وجود خطأ في ملف الخلاصة، حاول مجدداً لاحقاً."
+
+#. Text in function
+#: weaver-ii-pro/category.php:65 weaver-ii-pro/archive.php:70
+#: weaver-ii-pro/tag.php:64 weaver-ii-pro/author.php:87
+#: weaver-ii-pro/index.php:103 weaver-ii-pro/paget-posts.php:149
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr ""
+"عذراً، لم يتم العثور على نتائج بخصوص الأرشيف المطلوب، ربما يساعدك البحث في "
+"العثور على نتائج مناسبة."
+
+#. Text in function
+#: weaver-ii-pro/content-aside.php:19
+msgid "Aside"
+msgstr "ملاحظة"
+
+#. Text in function
+#: weaver-ii-pro/author.php:37
+msgid "Author Archives: %s"
+msgstr "أرشيف الكاتب: %s"
+
+#. Text in function
+#: weaver-ii-pro/content-sitemap.php:21
+msgid "Authors"
+msgstr "الكُتّاب"
+
+#. Text in function
+#: weaver-ii-pro/includes/lib-runtime.php:1603
+msgid "Blog"
+msgstr "المدونة"
+
+#. Text in function
+#: weaver-ii-pro/archive.php:33
+msgid "Blog Archives"
+msgstr "أرشيف المدونة"
+
+#. Text in function
+#: weaver-ii-pro/content-sitemap.php:21
+msgid "Categories"
+msgstr "تصنيفات"
+
+#. Text in function
+#: weaver-ii-pro/category.php:27
+msgid "Category Archives: %s"
+msgstr "أرشيف التصنيف: %s"
+
+#. Text in function
+#: weaver-ii-pro/content-chat.php:17
+msgid "Chat"
+msgstr "محادثة"
+
+#. Text in function
+#: weaver-ii-pro/comments.php:66
+msgid "Comment navigation"
+msgstr "تصفّح التعليقات"
+
+#. Text in function
+#: weaver-ii-pro/functions.php:2080
+msgid "Comment on %s"
+msgstr "التعليق على %s"
+
+#. Text in function
+#: weaver-ii-pro/comments.php:38
+msgid "Comments"
+msgstr "تعليق"
+
+#. Text in function
+#: weaver-ii-pro/comments.php:78
+msgid "Comments are closed."
+msgstr "التعليقات مغلقة."
+
+#. Text in function
+#: weaver-ii-pro/functions.php:2080
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "أكمل القراءة <span class=\"meta-nav\">&larr;</span>"
+
+#. Text in function
+#: weaver-ii-pro/archive.php:33
+msgid "Daily Archives: %s"
+msgstr "الأرشيف اليومي: %s"
+
+#. Text in function
+#: weaver-ii-pro/content-sitemap.php:52 weaver-ii-pro/content-chat.php:59
+#: weaver-ii-pro/content-page2col.php:64 weaver-ii-pro/functions.php:657
+#: weaver-ii-pro/functions.php:685 weaver-ii-pro/functions.php:839
+#: weaver-ii-pro/functions.php:2080 weaver-ii-pro/functions.php:994
+#: weaver-ii-pro/content-pwp.php:19 weaver-ii-pro/content-image.php:71
+#: weaver-ii-pro/content-html.php:69 weaver-ii-pro/content-page.php:25
+#: weaver-ii-pro/image.php:49
+msgid "Edit"
+msgstr "تحرير"
+
+#. Text in function
+#: weaver-ii-pro/functions.php:2080
+msgid "Enter your password to view comments."
+msgstr "التعليقات محمية: رجاءاً أكتب كلمة المرور لمشاهدة التعليقات."
+
+#. Text in function
+#: weaver-ii-pro/includes/lib-runtime.php:1603
+msgid "404"
+msgstr "صفحة الخطأ"
+
+#. Text in function
+#: weaver-ii-pro/content-gallery.php:19
+msgid "Gallery"
+msgstr "معرض"
+
+#. Text in function
+#: weaver-ii-pro/includes/lib-runtime.php:1603
+msgid "Home"
+msgstr "صفحة البداية"
+
+#. Text in function
+#: weaver-ii-pro/content-image.php:18
+msgid "Image"
+msgstr "صورة"
+
+#. Text in function
+#: weaver-ii-pro/image.php:105
+msgid "Image navigation"
+msgstr "تصفّح الصور"
+
+#. Text in function
+#: weaver-ii-pro/404.php:26
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching, or one of the links below, can help."
+msgstr ""
+"يبدو أنه لا يمكننا إيجاد ما تبحث عنه. جرب أن تبحث من جديد باستخدام عبارات "
+"مختلفة أو ربما عليك أن تستعين بإحدى الروابط أدناه."
+
+#. Text in function
+#: weaver-ii-pro/content-chat.php:52 weaver-ii-pro/functions.php:832
+#: weaver-ii-pro/functions.php:992 weaver-ii-pro/functions.php:2080
+#: weaver-ii-pro/functions.php:1197
+msgid "Leave a reply"
+msgstr "أكتب تعليق"
+
+#. Text in function
+#: weaver-ii-pro/content-link.php:19
+msgid "Link"
+msgstr "رابط"
+
+#. Text in function
+#: weaver-ii-pro/includes/widgets.php:116
+msgid "Log in/out, admin"
+msgstr "تسجيل الدخول/الخروج، الخلاصات وروابط ووردبريس"
+
+#. Text in function
+#: weaver-ii-pro/includes/widgets.php:116
+msgid "Login"
+msgstr "دخول"
+
+#. Text in function
+#: weaver-ii-pro/includes/lib-runtime.php:1603
+msgid "Menu"
+msgstr "القائمة"
+
+#. Text in function
+#: weaver-ii-pro/archive.php:33
+msgid "Monthly Archives: %s"
+msgstr "الأرشيف الشهري: %s"
+
+#. Text in function
+#: weaver-ii-pro/404.php:37
+msgid "Most Used Categories"
+msgstr "أكثر التصنيفات استخداماً"
+
+#. Text in function
+#: weaver-ii-pro/comments.php:68
+msgid "Newer Comments &rarr;"
+msgstr "تعليقات أحدث &rarr;"
+
+#. Text in function
+#: weaver-ii-pro/functions.php:583
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "التدوينات الأحدث <span class=\"meta-nav\">&larr;</span>"
+
+#. Text in function
+#: weaver-ii-pro/image.php:107
+msgid "Next &rarr;"
+msgstr "التالي &rarr;"
+
+#. Text in function
+#: weaver-ii-pro/single.php:50
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "التالي <span class=\"meta-nav\">&rarr;</span>"
+
+#. Text in function
+#: weaver-ii-pro/functions.php:558
+msgid "Next Post"
+msgstr "تدوينة لاحقة"
+
+#. Text in function
+#: weaver-ii-pro/category.php:61 weaver-ii-pro/archive.php:66
+#: weaver-ii-pro/tag.php:60 weaver-ii-pro/author.php:83
+#: weaver-ii-pro/index.php:99 weaver-ii-pro/paget-posts.php:145
+#: weaver-ii-pro/search.php:54
+msgid "Nothing Found"
+msgstr "لم يتم العثور على شيء"
+
+#. Text in function
+#: weaver-ii-pro/includes/lib-runtime.php:1603
+msgid "Page"
+msgstr "الصفحة "
+
+#. Text in function
+#: weaver-ii-pro/functions.php:2080
+msgid "Page %s"
+msgstr "الصفحة %s"
+
+#. Text in function
+#: weaver-ii-pro/includes/lib-runtime.php:1603
+msgid "Page Not Found"
+msgstr "الصفحة غير موجودة."
+
+#. Text in function
+#: weaver-ii-pro/content-sitemap.php:21
+msgid "Pages"
+msgstr "صفحات"
+
+#. Text in function
+#: weaver-ii-pro/content-aside.php:36 weaver-ii-pro/content-sitemap.php:21
+#: weaver-ii-pro/content-chat.php:52 weaver-ii-pro/content-gallery.php:53
+#: weaver-ii-pro/content-quote.php:38 weaver-ii-pro/content-page2col.php:61
+#: weaver-ii-pro/content-link.php:36 weaver-ii-pro/content-single.php:29
+#: weaver-ii-pro/content-blank.php:18 weaver-ii-pro/content.php:43
+#: weaver-ii-pro/content-pwp.php:22 weaver-ii-pro/content-image.php:31
+#: weaver-ii-pro/content-status.php:40 weaver-ii-pro/content-html.php:66
+#: weaver-ii-pro/content-page.php:21 weaver-ii-pro/image.php:98
+msgid "Pages:"
+msgstr "صفحات:"
+
+#. Text in function
+#: weaver-ii-pro/includes/shortcodes.php:117
+#: weaver-ii-pro/content-gallery.php:47 weaver-ii-pro/functions.php:768
+#: weaver-ii-pro/functions.php:1542
+msgid "Permalink to %s"
+msgstr "رابط دائم لـ %s"
+
+#. Text in function
+#: weaver-ii-pro/functions.php:657
+msgid "Pingback:"
+msgstr "تنبيه:"
+
+#. Text in function
+#: weaver-ii-pro/includes/lib-runtime.php:1603
+msgid "Post Formats"
+msgstr "بنية التدوينة"
+
+#. Text in function
+#: weaver-ii-pro/single.php:46 weaver-ii-pro/functions.php:553
+msgid "Post navigation"
+msgstr "تصفّح التدوينات"
+
+#. Text in function
+#: weaver-ii-pro/content-sitemap.php:21
+msgid "Posts"
+msgstr "تدوينات"
+
+#. Text in function
+#: weaver-ii-pro/includes/lib-runtime.php:1603
+msgid "Published"
+msgstr "منشور"
+
+#. Text in function
+#: weaver-ii-pro/includes/lib-runtime.php:1603
+msgid "Author"
+msgstr "كاتب"
+
+#. Text in function
+#: weaver-ii-pro/functions.php:557
+msgid "Previous Post"
+msgstr "تدوينة سابقة"
+
+#. Text in function
+#: weaver-ii-pro/footer.php:55
+msgid "Proudly powered by %s"
+msgstr "الموقع يستخدم %s بكل فخر"
+
+#. Text in function
+#: weaver-ii-pro/content-quote.php:17
+msgid "Quote"
+msgstr "اقتباس"
+
+#. Text in function
+#: weaver-ii-pro/functions.php:1240 weaver-ii-pro/content-image.php:67
+msgid "Reply"
+msgstr "رد"
+
+#. Text in function
+#: weaver-ii-pro/functions.php:698
+msgid "Reply <span>&darr;</span>"
+msgstr "رد <span>&darr;</span>"
+
+#. Text in function
+#: weaver-ii-pro/search.php:29
+msgid "Search Results for: %s"
+msgstr "نتائج البحث عن: %s"
+
+#. Text in function
+#: weaver-ii-pro/includes/lib-runtime.php:1603
+msgid "Search Results"
+msgstr "نتائج البحث"
+
+#. Text in function
+#: weaver-ii-pro/includes/pro/weaverii-pro-sc-search.php:31
+#: weaver-ii-pro/searchform.php:1
+msgid "Search for:"
+msgstr "البحث عن:"
+
+#. Text in function
+#: weaver-ii-pro/nav-bottom.php:16 weaver-ii-pro/nav-top.php:16
+msgid "Skip to primary content"
+msgstr "تخطي إلى المحتوى الأساسي"
+
+#. Text in function
+#: weaver-ii-pro/nav-bottom.php:17 weaver-ii-pro/nav-top.php:17
+msgid "Skip to secondary content"
+msgstr "تخطي إلى المحتوى الثانوي"
+
+#. Text in function
+#: weaver-ii-pro/search.php:58
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"المعذرة، لم يتم إيجاد نتائج مطابقة لطلبك. يرجى البحث من جديد باستخدام كلمات "
+"مختلفة."
+
+#. Text in function
+#: weaver-ii-pro/404.php:22
+msgid "Sorry, no such page."
+msgstr "عفواً، الصفحة غير موجود."
+
+#. Text in function
+#: weaver-ii-pro/content-status.php:18
+msgid "Status"
+msgstr "الحالة"
+
+#. Text in function
+#: weaver-ii-pro/includes/pro/weaverii-pro-sc-feed.php:54
+msgid "Syndicate this content"
+msgstr "خلاصة آخر التدوينات"
+
+#. Text in function
+#: weaver-ii-pro/includes/lib-runtime.php:1603
+msgid "Tags"
+msgstr "وسوم"
+
+#. Text in function
+#: weaver-ii-pro/tag.php:27
+msgid "Tag Archives: %s"
+msgstr "أرشيف الوسم: %s"
+
+#. Text in function
+#: weaver-ii-pro/content-sitemap.php:21
+msgid "Tag Cloud"
+msgstr "معرض الوسوم"
+
+#. Text in function
+#: weaver-ii-pro/functions.php:2080
+msgid ""
+"This entry was posted by <a href=\"%6$s\">%5$s</a>. Bookmark the <a href="
+"\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+"هذا الموضوع كُتب بواسطة <a href=\"%6$s\">%5$s</a>. أضف <a href=\"%3$s\" title="
+"\"الرابط الدائم لـ  %4$s\" rel=\"bookmark\">الرابط الدائم</a> إلى المفضّلة."
+
+#. Text in function
+#: weaver-ii-pro/functions.php:2080
+msgid ""
+"This entry was posted in %1$s and tagged %2$s by <a href=\"%6$s\">%5$s</a>. "
+"Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark"
+"\">permalink</a>."
+msgstr ""
+"هذه التدوينة نُشرت ضمن التصنيف %1$s بواسطة <a href=\"%6$s\">%5$s</a> وتحمل "
+"الوسوم %2$s. أضف <a href=\"%3$s\" title=\"الرابط الدائم لـ %4$s\" rel="
+"\"bookmark\">الرابط الدائم</a> إلى مفضلتّك."
+
+#. Text in function
+#: weaver-ii-pro/functions.php:2080
+msgid ""
+"This entry was posted in %1$s by <a href=\"%6$s\">%5$s</a>. Bookmark the <a "
+"href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+"هذه التدوينة نُشرت ضمن التصنيف %1$s بواسطة <a href=\"%6$s\">%5$s</a>. أضف <a "
+"href=\"%3$s\" title=\"الرابط الدائم لـ %4$s\" rel=\"bookmark\">الرابط "
+"الدائم</a> إلى مفضلتّك."
+
+#. Text in function
+#: weaver-ii-pro/comments.php:19
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr "هذه التدوينة محمية بكلمة مرور. أدخل كلمة المرور لعرض التعليقات."
+
+#. Text in function
+#: weaver-ii-pro/404.php:43
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "حاول أن تبحث في الأرشيف الشهري. %1$s"
+
+#. Text in function
+#: weaver-ii-pro/includes/pro/weaverii-pro-sc-feed.php:54
+msgid "Unknown Feed"
+msgstr "خلاصة غير معروفة"
+
+#. Text in function
+#: weaver-ii-pro/includes/pro/weaverii-pro-sc-feed.php:54
+msgid "Untitled"
+msgstr "بدون عنوان"
+
+#. Text in function
+#: weaver-ii-pro/functions.php:2080 weaver-ii-pro/content-image.php:57
+msgid "View all posts by %s"
+msgstr "عرض المواضيع حسب %s"
+
+#. Text in function
+#: weaver-ii-pro/includes/shortcodes.php:137
+#: weaver-ii-pro/content-single.php:46
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+"عرض جميع التدوينات المكتوبة بواسطة %s <span class=\"meta-nav\">&larr;</span>"
+
+#. Text in function
+#: weaver-ii-pro/includes/widgets.php:116
+msgid "Welcome"
+msgstr "ترحيب"
+
+#. Text in function
+#: weaver-ii-pro/archive.php:33
+msgid "Yearly Archives: %s"
+msgstr "الأرشيف السنوي: %s"
+
+#. Text in function
+#: weaver-ii-pro/functions.php:689
+msgid "Your comment is awaiting moderation."
+msgstr "تعليقك يحتاج موافقة المدير."
+
+#. Text in function
+#: weaver-ii-pro/footer.php:55
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#. Text in function
+#: weaver-ii-pro/functions.php:953 weaver-ii-pro/functions.php:2080
+msgid "permalink"
+msgstr "الرابط الدائم:"

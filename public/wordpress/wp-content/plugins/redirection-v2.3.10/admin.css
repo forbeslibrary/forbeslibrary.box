@@ -1,0 +1,204 @@
+.modules
+{
+width: 100%;
+border-spacing: 0px 5px;
+}
+
+.modules img
+{
+vertical-align: middle;
+}
+
+.modules a
+{
+border: none;
+text-decoration: underline;
+}
+
+.modules td
+{
+padding: 6px;
+background-color: #e6e6e6;
+}
+
+.modules th
+{
+padding: 0px 6px;
+}
+
+.modules td p
+{
+margin: 0 0 0.5em 0;
+}
+
+.modules td h4
+{
+margin: 0 0 0.5em 0;
+font-size: 1.2em;
+}
+
+.modules td strong
+{
+color: red;
+}
+
+.modules td.logo
+{
+background-color: #d4d4d4;
+width: 70px;
+text-align: center;
+}
+
+.modules td.operations
+{
+  background-color: #d4d4d4;
+  text-align: center;
+}
+
+.modules td table td
+{
+padding: 0px;
+}
+
+.modules td table td strong
+{
+color: black;
+}
+
+.modules .toolbar
+{
+margin-top: 7px;
+font-size: 0.8em;
+background-color: #d4d4d4;
+padding: 5px 10px 4px 10px;
+}
+
+.modules .toolbar a
+{
+color: #333;
+padding: 0px 4px;
+}
+
+.modules .toolbar strong
+{
+color: black;
+}
+
+.modules .toolbar a:hover
+{
+color: white;
+}
+
+
+.bulleted li {
+list-style-type: square;
+margin-left: 20px;
+}
+
+.donations li
+{
+list-style-type: none;
+float: left;
+text-align: center;
+padding: 1em 2em;
+}
+
+.translators li
+{
+float: left;
+width: 300px;
+margin-left: 1.5em;
+}
+
+div .supporter strong
+{
+background-color: yellow;
+}
+
+#items, .item {
+direction:ltr;
+}
+
+.wp-list-table .column-moduletype {
+	width: 100px;
+}
+
+.wp-list-table .column-groups {
+	width: 50px;
+}
+
+.wp-list-table .column-created {
+	width: 150px;
+}
+
+.wp-list-table .column-ip {
+	width: 120px;
+}
+
+.wp-list-table .column-type {
+	width: 50px;
+	text-align: left;
+}
+
+.wp-list-table .column-hits {
+	width: 50px;
+	text-align: left;
+}
+
+.wp-list-table .column-redirects {
+	width: 100px;
+	text-align: left;
+}
+
+.wp-list-table .column-last_access {
+	width: 100px;
+	text-align: left;
+}
+
+table.edit.loading .table-loading .spinner {
+	float: left;
+	display: block;
+}
+
+table.edit.loading .table-actions {
+	display: none;
+}
+
+table.items .red-disabled {
+	text-decoration: line-through;
+}
+
+.red-added {
+	display: none;
+}
+
+.red-error {
+	display: none;
+	border-width: 1px;
+	border-style: solid;
+	padding: 1em 1em;
+	margin: 10px 0px;
+	background-color: #F55B7C;
+	border-color: red;
+	color: white;
+}
+
+.loaded .red-added {
+	display: block;
+	border-width: 1px;
+	border-style: solid;
+	padding: 0 0.6em;
+	margin: 5px 15px 2px;
+	background-color: #ffffe0;
+	border-color: #e6db55;
+}
+
+.loading .updated-red p {
+	margin: 0.5em 0;
+	line-height: 1;
+	padding: 2px;
+}
+
+.loaded-error .red-error {
+	display: block;
+}

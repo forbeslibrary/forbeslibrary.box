@@ -13,3 +13,7 @@ no password
 ### Omeka
 user: admin
 password: password
+
+### Wordpress
+user: admin
+password: password

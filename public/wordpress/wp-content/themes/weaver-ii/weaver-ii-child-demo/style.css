@@ -1,0 +1,55 @@
+/*
+Theme Name: Weaver II Child Demo
+Theme URI: http://weavertheme.com
+Description: Bare minimum Weaver II Child demo theme
+Author: Bruce Wampler
+Author URI: http://weavertheme.com/about
+Version: 1.2
+Tags: light, dark, white, black, gray, one-column, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, fluid-layout, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, flexible-header, full-width-template,  post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, photoblogging
+Template: weaver-ii
+
+!!!!!!!!!!!!!!!!! IMPORTANT: Change above from weaver-ii to weaver-ii-pro for Pro version !!!!!!!!!!!!!!!!
+
+This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+
+
+/* Use the following @import for parent Weaver II theme.
+  IMPORTANT:
+  For free weaver, the @import line should use: url('../weaver-ii/style.min.css')
+  For Weaver II Pro, you MUST make two changes.
+	For the @import, use: url('../weaver-ii-pro/style.min.css')
+    AND
+	Change the above line "Template: weaver-ii" to be "Template: weaver-ii-pro"
+
+*/
+@import url('../weaver-ii/style.css');	/* alternatively, you can use style.css instead of style.min.css */
+
+/* Minified version: You can create a minified version of this file for your child theme
+  directory called style.min.css. If you do that, you MUST have both the child style.css and
+  the child style.min.css. The style.min.css version will be used automatically if it is defined.
+
+  ------------------------------------------------------
+ Add specific style overrides here...
+
+  Just for example, this style will increase the base font size of the site.
+*/
+body,
+input,
+textarea {
+	color: #666;
+	font-size: 16px;
+	line-height: 1.5em;
+}

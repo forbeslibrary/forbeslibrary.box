@@ -29,6 +29,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 		s.inline = <<-endOfScript
       mysql -u root < /var/www/omeka-1.5.3-data.sql;
       mysql -u root < /var/www/omeka-2.2.2-data.sql;
+      mysql -u root < /var/www/wordpress-data.sql;
       sudo chown -R nobody /var/lib/php/session;
       sudo chmod -R 770 /var/lib/php/session;
     endOfScript

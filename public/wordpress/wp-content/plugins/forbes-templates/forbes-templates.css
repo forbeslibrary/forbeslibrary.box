@@ -1,0 +1,17 @@
+/* FORBES FRONT PAGE BOX STYLE */
+#content .forbes_front_page_box { display: block; padding: 1em; margin: 1em; border-radius: 1em; text-align: center; color: #000; text-decoration: none; font-size: large;
+font-weight: 300; }
+
+#content .forbes_front_page_box_content:first-child { margin-top:0; }
+
+#content .forbes_front_page_box h2 { font-weight: 900; }
+
+#content a.forbes_front_page_box:hover { -webkit-filter: brightness(1.1); }
+
+#content .forbes_front_page_box h2, #content .forbes_front_page_box a { color:#000; }
+
+#content .forbes_front_page_box.white_text, #content .forbes_front_page_box.white_text h2, #content .forbes_front_page_box.white_text a { color:#fff; }
+
+#content .forbes_front_page_box.content_in_box { position: relative; text-align: left;}
+
+#content .forbes_front_page_box.content_in_box .forbes_front_page_box_content { position: absolute; bottom:0; right:0; width:50%; padding:0.5em; background-color: inherit; }
