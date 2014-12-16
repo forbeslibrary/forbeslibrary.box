@@ -3,6 +3,9 @@ RewriteEngine On
 RewriteBase /wordpress/
 RewriteRule ^index\.php$ - [L]
 
+# fetch missing images from forbeslibrary.org
+RewriteRule ^wp-content/uploads/(.*)$ http://forbeslibrary.org/wp-content/uploads/$1 [R,L]
+
 # add a trailing slash to /wp-admin
 RewriteRule ^([_0-9a-zA-Z-]+/)?wp-admin$ $1wp-admin/ [R=301,L]
 
