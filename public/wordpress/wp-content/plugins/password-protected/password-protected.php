@@ -4,7 +4,7 @@
 Plugin Name: Password Protected
 Plugin URI: https://wordpress.org/plugins/password-protected/
 Description: A very simple way to quickly password protect your WordPress site with a single password. Please note: This plugin does not restrict access to uploaded files and images and does not work on WP Engine or with some caching setups.
-Version: 1.8
+Version: 1.9
 Author: Ben Huson
 Text Domain: password-protected
 Author URI: http://github.com/benhuson/password-protected/
@@ -42,7 +42,7 @@ $Password_Protected = new Password_Protected();
 
 class Password_Protected {
 
-	var $version = '1.8';
+	var $version = '1.9';
 	var $admin   = null;
 	var $errors  = null;
 
@@ -56,6 +56,9 @@ class Password_Protected {
 		register_activation_hook( __FILE__, array( &$this, 'install' ) );
 
 		add_action( 'plugins_loaded', array( $this, 'load_plugin_textdomain' ) );
+
+		add_filter( 'password_protected_is_active', array( $this, 'allow_ip_addresses' ) );
+
 		add_action( 'init', array( $this, 'disable_caching' ), 1 );
 		add_action( 'init', array( $this, 'maybe_process_login' ), 1 );
 		add_action( 'wp', array( $this, 'disable_feeds' ) );
@@ -108,10 +111,12 @@ class Password_Protected {
 		}
 
 		if ( (bool) get_option( 'password_protected_status' ) ) {
-			return true;
+			$is_active = true;
+		} else {
+			$is_active = false;
 		}
 
-		return false;
+		return apply_filters( 'password_protected_is_active', $is_active );
 
 	}
 
@@ -183,11 +188,42 @@ class Password_Protected {
 	 */
 	function allow_users( $bool ) {
 
-		if ( ! is_admin() && current_user_can( 'manage_options' ) && (bool) get_option( 'password_protected_users' ) ) {
+		if ( ! is_admin() && is_user_logged_in() && (bool) get_option( 'password_protected_users' ) ) {
 			return 0;
 		}
 
 		return $bool;
+
+	}
+
+	/**
+	 * Allow IP Addresses
+	 *
+	 * If user has a valid email address, return false to disable password protection.
+	 *
+	 * @param   boolean  $bool  Allow IP addresses.
+	 * @return  boolean         True/false.
+	 */
+	function allow_ip_addresses( $bool ) {
+
+		$ip_addresses = $this->get_allowed_ip_addresses();
+
+		if ( in_array( $_SERVER['REMOTE_ADDR'], $ip_addresses ) ) {
+			$bool = false;
+		}
+
+		return $bool;
+
+	}
+
+	/**
+	 * Get Allowed IP Addresses
+	 *
+	 * @return  array  IP addresses.
+	 */
+	function get_allowed_ip_addresses() {
+
+		return explode( "\n", get_option( 'password_protected_allowed_ip_addresses' ) );
 
 	}
 

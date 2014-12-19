@@ -206,9 +206,9 @@ function forbes_database_single_template($template){
   global $post;
   
   if ($post->post_type == 'forbes_databases') {
-     $single_template = dirname( __FILE__ ) . '/single-forbes-database.php';
+     $template = dirname( __FILE__ ) . '/single-forbes-database.php';
   }
-  return $single_template;
+  return $template;
 }
 
 /**
