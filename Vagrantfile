@@ -27,11 +27,16 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 	# Provision box
 	config.vm.provision "shell" do |s|
 		s.inline = <<-endOfScript
+		  # import databases
       mysql -u root < /var/www/omeka-1.5.3-data.sql;
       mysql -u root < /var/www/omeka-2.2.2-data.sql;
       mysql -u root < /var/www/wordpress-data.sql;
+			# set permissions required by php
       sudo chown -R nobody /var/lib/php/session;
       sudo chmod -R 770 /var/lib/php/session;
+			# restart Appache with custom httpd.conf file
+			sudo cp /var/www/httpd.conf /etc/httpd/conf/
+			sudo apachectl -k graceful
     endOfScript
 	end
 end
