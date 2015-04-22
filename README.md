@@ -11,18 +11,20 @@ virtual machine: `/etc/www/`
 ## Databases
 <dl>
   <dt>Omeka</dt><dd>`omeka222`</dd>
-  <dt>Wordpress<dt><dd>`wordpress`</dd>
+  <dt>Wordpress</dt><dd>`wordpress`</dd>
 </dl>
 
 ## User Accounts
 
 ### MySQL
-user: `root`<br>
-no password
+username | password
+---------|----------
+`root`   | *no password*
 
 ### Omeka
-user: `admin`<br>
-password: `password`
+username | role | password
+---------|------|----------
+`admin`  |super | `password`
 
 ### Wordpress
 username | role | password
