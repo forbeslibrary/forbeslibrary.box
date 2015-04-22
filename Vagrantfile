@@ -28,7 +28,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 	config.vm.provision "shell" do |s|
 		s.inline = <<-endOfScript
 		  # import databases
-      mysql -u root < /var/www/omeka-1.5.3-data.sql;
       mysql -u root < /var/www/omeka-2.2.2-data.sql;
       mysql -u root < /var/www/wordpress-data.sql;
 			# set permissions required by php
