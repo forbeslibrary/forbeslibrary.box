@@ -10,7 +10,7 @@
 #
 # Note: This should only be enabled for development or debugging. Keep this
 # line commented for production sites.
-# 
+#
 SetEnv APPLICATION_ENV development
 
 # ------------- #
@@ -26,8 +26,8 @@ RewriteEngine on
 
 # fetch missing images from forbeslibrary.org
 RewriteRule ^(files/theme_uploads/.*)$ $1 [L]
-RewriteRule ^files/original/(.*)$ http://images.forbeslibrary.org/archive/files/$1 [R,L]
-RewriteRule ^files/(.*)$ http://images.forbeslibrary.org/archive/$1 [R,L]
+RewriteRule ^files/original/(.*)$ http://images.forbeslibrary.org/files/original/$1 [R,L]
+RewriteRule ^files/(.*)$ http://images.forbeslibrary.org/files/$1 [R,L]
 
 
 # Allow direct access to files (except PHP files)
