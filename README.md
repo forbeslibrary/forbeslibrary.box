@@ -22,8 +22,10 @@ no password
 
 ### Omeka
 user: `admin`<br>
-password: password
+password: `password`
 
 ### Wordpress
-user: `admin`<br>
-password: `password`
+username | role | password
+---------|------|----------
+`admin`  |admin | `password`
+`editor` |editor| `password`
