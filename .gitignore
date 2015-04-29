@@ -1,6 +1,3 @@
 .vagrant/
 *.log
 /public/omeka-2.2.2/themes/**
-/public/omeka-2.2.2/plugins/**
-/public/wordpress/wp-content/plugins/**
-/public/wordpress/wp-content/uploads/**
