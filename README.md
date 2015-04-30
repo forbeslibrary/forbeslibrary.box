@@ -10,8 +10,25 @@ virtual machine: `/var/www/`
 
 ## Databases
 <dl>
-  <dt>Omeka</dt><dd>`omeka222`</dd>
-  <dt>Wordpress</dt><dd>`wordpress`</dd>
+  <dt>Omeka</dt>
+  <dd>
+    `omeka222`
+    <br>
+    To save database state, type:
+
+    ```bash
+    mysqldump -u root --databases wordpress > /var/www/config/mysql/wordpress-data.sql
+    ```
+  </dd>
+  <dt>Wordpress</dt>
+  <dd>
+    `wordpress`
+    To save database state, type:
+
+    ```bash
+    mysqldump -u root --databases omeka222 > /var/www/config/mysql/omeka-2.2.2-data.sql
+    ```
+  </dd>
 </dl>
 
 ## User Accounts
@@ -31,8 +48,3 @@ username | role | password
 ---------|------|----------
 `admin`  |admin | `password`
 `editor` |editor| `password`
-
-## To Save Database State
-From withint the virtual machine type
-`mysqldump -u root --databases wordpress > /var/www/config/mysql/wordpress-data.sql`
-`mysqldump -u root --databases omeka-2-2-2 > /var/www/config/mysql/omeka-2.2.2-data.sql`
