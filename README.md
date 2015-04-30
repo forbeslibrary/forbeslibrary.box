@@ -8,31 +8,7 @@ A virtual machine configured with vagrant with dummy installations of software u
 local machine: `public`<br>
 virtual machine: `/var/www/`
 
-## Databases
-<dl>
-  <dt>Omeka</dt>
-  <dd>
-    `omeka222`
-    <br>
-    To save database state, type:
-
-    ```bash
-    mysqldump -u root --databases wordpress > /var/www/config/mysql/wordpress-data.sql
-    ```
-  </dd>
-  <dt>Wordpress</dt>
-  <dd>
-    `wordpress`
-    To save database state, type:
-
-    ```bash
-    mysqldump -u root --databases omeka222 > /var/www/config/mysql/omeka-2.2.2-data.sql
-    ```
-  </dd>
-</dl>
-
-## User Accounts
-
+## Applications
 ### MySQL
 username | password
 ---------|----------
@@ -43,8 +19,24 @@ username | role | password
 ---------|------|----------
 `admin`  |super | `password`
 
-### Wordpress
+Database name: `omeka222`
+
+To save database state, type, from within the virtual machine:
+
+```bash
+mysqldump -u root --databases wordpress > /var/www/config/mysql/wordpress-data.sql
+```
+
+### Wordpress</dt>
 username | role | password
 ---------|------|----------
 `admin`  |admin | `password`
 `editor` |editor| `password`
+
+Datbase name: `wordpress`
+
+To save database state, type, from within the virtual machine:
+
+```bash
+mysqldump -u root --databases omeka222 > /var/www/config/mysql/omeka-2.2.2-data.sql
+```
