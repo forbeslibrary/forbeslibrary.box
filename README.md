@@ -6,7 +6,7 @@ A virtual machine configured with vagrant with dummy installations of software u
 ## Shared Folders
 
 local machine: `public`<br>
-virtual machine: `/etc/www/`
+virtual machine: `/var/www/`
 
 ## Databases
 <dl>
@@ -31,3 +31,8 @@ username | role | password
 ---------|------|----------
 `admin`  |admin | `password`
 `editor` |editor| `password`
+
+## To Save Database State
+From withint the virtual machine type
+`mysqldump -u root --databases wordpress > /var/www/config/mysql/wordpress-data.sql`
+`mysqldump -u root --databases omeka-2-2-2 > /var/www/config/mysql/omeka-2.2.2-data.sql`

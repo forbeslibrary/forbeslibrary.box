@@ -1,3 +1,0 @@
-Fix
-b=doc.documentElement.currentStyle.getAttribute(f.F+"poll-interval")||400
-in PIE.htc from 250 to 500. The poll-interval doesn't seem to work right. This changes the polling to every 1/2 second for IE8 to avoid CPU overuse.
