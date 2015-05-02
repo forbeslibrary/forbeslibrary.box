@@ -73,6 +73,10 @@ if ! [ -e $PUBLIC/wordpress/wp-content/plugins/library-databases ]
   then
     git clone --quiet https://github.com/forbeslibrary/wordpress.plugin.library-databases.git $PUBLIC/wordpress/wp-content/plugins/library-databases
 fi
+if ! [ -e $PUBLIC/wordpress/wp-content/plugins/wowbrary ]
+  then
+    git clone --quiet https://github.com/forbeslibrary/wordpress.plugin.wowbrary.git $PUBLIC/wordpress/wp-content/plugins/wowbrary
+fi
 
 echo "restarting Appache with httpd.conf..."
 sudo cp $CONFIG/appache/httpd.conf /etc/httpd/conf/
