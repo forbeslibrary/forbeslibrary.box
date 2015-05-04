@@ -24,7 +24,7 @@ Database name: `omeka222`
 To save database state, type, from within the virtual machine:
 
 ```bash
-mysqldump -u root --databases wordpress > /var/www/config/mysql/wordpress-data.sql
+mysqldump -u root --databases omeka222 > /var/www/config/mysql/omeka-2.2.2-data.sql
 ```
 
 ### Wordpress</dt>
@@ -38,5 +38,5 @@ Datbase name: `wordpress`
 To save database state, type, from within the virtual machine:
 
 ```bash
-mysqldump -u root --databases omeka222 > /var/www/config/mysql/omeka-2.2.2-data.sql
+mysqldump -u root --databases wordpress > /var/www/config/mysql/wordpress-data.sql
 ```
