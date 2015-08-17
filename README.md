@@ -30,7 +30,7 @@ mysqldump -u root --databases omeka222 > /var/www/config/mysql/omeka-2.2.2-data.
 ### Wordpress</dt>
 username | role | password
 ---------|------|----------
-`admin`  |admin | `password`
+`adminuser`  |admin | `password`
 `editor` |editor| `password`
 
 Datbase name: `wordpress`
