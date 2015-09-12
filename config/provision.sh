@@ -52,8 +52,8 @@ fi
 echo "installing Wordpress plugins and themes"
 if ! [ -e $PUBLIC/wordpress/wp-content/themes/weaver-ii ]
   then
-    wget http://weavertheme.com/wp-content/uploads/downloads/2014/05/weaver-ii-2-1-12.zip
-    unzip -nq weaver-ii-2-1-12.zip -d $PUBLIC/wordpress/wp-content/themes/
+    wget http://weavertheme.com/wp-content/uploads/downloads/2015/09/weaver-ii-2-2-2.zip
+    unzip -nq weaver-ii-2-2-2.zip -d $PUBLIC/wordpress/wp-content/themes/
 fi
 
 if ! [ -e $PUBLIC/wordpress/wp-content/themes/weaver-ii-forbes ]
@@ -62,8 +62,8 @@ if ! [ -e $PUBLIC/wordpress/wp-content/themes/weaver-ii-forbes ]
 fi
 if ! [ -e $PUBLIC/wordpress/wp-content/plugins/weaver-ii-theme-extras ]
   then
-    wget  https://downloads.wordpress.org/plugin/weaver-ii-theme-extras.2.2.10.zip
-    unzip -nq weaver-ii-theme-extras.2.2.10.zip -d $PUBLIC/wordpress/wp-content/plugins/
+    wget  https://downloads.wordpress.org/plugin/weaver-ii-theme-extras.2.3.1.zip
+    unzip -nq weaver-ii-theme-extras.2.3.1.zip -d $PUBLIC/wordpress/wp-content/plugins/
 fi
 if ! [ -e $PUBLIC/wordpress/wp-content/plugins/staff-picks ]
   then
