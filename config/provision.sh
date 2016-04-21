@@ -44,7 +44,7 @@ if ! [ -e $PUBLIC/wordpress/ ]
     echo "downloading Wordpress..."
     wget --no-check-certificate https://downloads.wordpress.org/release/wordpress-4.5.zip
     echo installing Wordpress...""
-    unzip -nq wordpress-4.5 zip -d $PUBLIC/
+    unzip -nq wordpress-4.5.zip -d $PUBLIC/
     echo "configuring Wordpress..."
     cp -f $CONFIG/wordpress/* $PUBLIC/wordpress/
 fi
