@@ -8,7 +8,7 @@ CONFIG="$SHARED/config"
 PUBLIC="$SHARED/public"
 
 echo "creating databases..."
-mysql -u root < $CONFIG/mysql/omeka-2.2.2-data.sql;
+mysql -u root < $CONFIG/mysql/omeka-data.sql;
 mysql -u root < $CONFIG/mysql/wordpress-data.sql;
 
 echo "setting permissions required by php..."
@@ -19,24 +19,24 @@ echo "installing software via yum..."
 yum -y --quiet install git
 yum -y --quiet install unzip
 
-if ! [ -e $PUBLIC/omeka-2.2.2/ ]
+if ! [ -e $PUBLIC/omeka-2.4.1/ ]
   then
     echo "downloading Omeka..."
-    wget http://omeka.org/files/omeka-2.2.2.zip
+    wget http://omeka.org/files/omeka-2.4.1.zip
     echo "installing Omeka..."
-    unzip -nq omeka-2.2.2.zip -d $PUBLIC/
+    unzip -nq omeka-2.4.1.zip -d $PUBLIC/
     echo "configuring Omeka..."
-    cp -f $CONFIG/omeka/* $PUBLIC/omeka-2.2.2/
+    cp -f $CONFIG/omeka/* $PUBLIC/omeka-2.4.1/
 fi
 
 echo "installing Omeka plugins and themes..."
-if ! [ -e $PUBLIC/omeka-2.2.2/themes/forbes-library ]
+if ! [ -e $PUBLIC/omeka-2.4.1/themes/forbes-library ]
   then
-    git clone --quiet https://github.com/forbeslibrary/omeka.theme.forbes-library.git $PUBLIC/omeka-2.2.2/themes/forbes-library
+    git clone --quiet https://github.com/forbeslibrary/omeka.theme.forbes-library.git $PUBLIC/omeka-2.4.1/themes/forbes-library
 fi
-if ! [ -e $PUBLIC/omeka-2.2.2/plugins/concise-search ]
+if ! [ -e $PUBLIC/omeka-2.4.1/plugins/concise-search ]
   then
-    git clone --quiet https://github.com/forbeslibrary/omeka.plugin.concise-search.git $PUBLIC/omeka-2.2.2/plugins/concise-search
+    git clone --quiet https://github.com/forbeslibrary/omeka.plugin.concise-search.git $PUBLIC/omeka-2.4.1/plugins/concise-search
 fi
 
 if ! [ -e $PUBLIC/wordpress/ ]
