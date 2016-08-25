@@ -24,7 +24,7 @@ Database name: `omeka222`
 To save database state, type, from within the virtual machine:
 
 ```bash
-mysqldump -u root --databases omeka222 > /var/www/config/mysql/omeka-2.2.2-data.sql
+mysqldump -u root --databases omeka > /var/www/config/mysql/omeka-data.sql
 ```
 
 ### Wordpress</dt>
@@ -39,4 +39,15 @@ To save database state, type, from within the virtual machine:
 
 ```bash
 mysqldump -u root --databases wordpress > /var/www/config/mysql/wordpress-data.sql
+```
+
+### Setup
+As much of the setup as possible is handled by `vagrant provision`. In order to
+avoid mixing local and remote node installations, however, the following
+commands should be run locally after provisioning.
+
+```bash
+cd public/omeka-2.4.1/themes/forbes-library
+npm install
+grunt
 ```
