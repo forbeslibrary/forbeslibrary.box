@@ -18,6 +18,8 @@ sudo chmod -R 770 /var/lib/php/session;
 echo "installing software via yum..."
 yum -y --quiet install git
 yum -y --quiet install unzip
+#yum -y --quiet install libtidy libtidy-dev
+yum -y --enablerepo=ius-archive install php53u-tidy
 
 if ! [ -e $PUBLIC/omeka-2.4.1/ ]
   then
