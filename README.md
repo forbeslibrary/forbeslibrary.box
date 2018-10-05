@@ -9,8 +9,8 @@ You will need [Vagrant](https://www.vagrantup.com/) and
 [VirtualBox](https://www.virtualbox.org/).
 
 ### Setup
-To get use the command `vagrant provision` from within the forbeslibrary.box
-directory.
+To get started use the command `vagrant provision` from within the
+forbeslibrary.box directory.
 
 As much of the setup as possible is handled by `vagrant provision`. In order to
 avoid mixing local and remote node installations, however, the following
