@@ -1,3 +1,7 @@
+# *** Deprecated ***
+forbeslibrary.box has been deprecated. Please use [Varying Vagrant Vagrants](https://varyingvagrantvagrants.org/) instead.
+
+
 Forbeslibrary.org Development Environment
 ===========
 
